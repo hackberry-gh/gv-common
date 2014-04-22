@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Onur Uyar"]
   spec.email         = ["me@onuruyar.com"]
   spec.summary       = %q{GreenValley Shared Library}
-  spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.homepage      = "https://github.com/green-valley/gv-common"
+  spec.license       = "Unlicense"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
