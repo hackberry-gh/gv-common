@@ -29,7 +29,7 @@ module GV
             end
           end
 
-          command :'service' do |c|
+          command :service do |c|
             c.syntax = "gv-#{lib} service SERVICE METHOD <ARGS>"
             c.description = 'Runs method on remote service'
             c.action do |args, options|
